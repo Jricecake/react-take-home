@@ -23,6 +23,59 @@
   color: #61dafb;
 }
 
+.campaign-header {
+  width:100%;
+  display: inline-flex;
+  padding: 20px 5px;
+}
+
+.icon {
+  margin: 0 10px;
+  border-radius: 20px;
+  width: 75px;
+  height:75px;
+}
+
+.install-price {
+  color: #009330;
+}
+.media {
+  flex: 0 0 auto;
+  width: 125px;
+  margin: 10px;
+}
+
+.media img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.media-buttons{
+  display:inline-flex;
+}
+
+.media-buttons .button {
+  background-color:white;
+  border: solid 1px gray;
+  border-radius:5px;
+  width: 50%;
+  display: inline-block;
+}
+
+.media-container {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background-color: #f7fbfc;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.media-cover-photo {
+  width: 125px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
